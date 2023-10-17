@@ -11,7 +11,7 @@ public class RegistrationController {
 @PostMapping("/confirm")
 public String register(@RequestBody UserDetails userDetails){
 
-    return "Hello " + userDetails.getName() + " your registration is successful with the email" + userDetails.getEmail();
+     return "Hello " + userDetails.getName() + " your registration is successful with the email" + userDetails.getEmail();
 
 }
 
